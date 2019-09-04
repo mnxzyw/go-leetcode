@@ -9,6 +9,7 @@ func twoSum(nums []int, target int) []int {
 			if target == nums[key]+nums[i] {
 				rsp[0] = key
 				rsp[1] = i
+				break
 			}
 		}
 	}
