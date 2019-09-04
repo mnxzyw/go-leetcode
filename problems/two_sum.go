@@ -33,6 +33,7 @@ func twoSum1(nums []int, target int) []int {
 	}
 	return rsp
 }
+
 func main() {
 	var nums = []int{1, 5, 9, 12, 17}
 	var target = 17

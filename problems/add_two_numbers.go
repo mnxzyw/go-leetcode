@@ -85,7 +85,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	n3 = n3.Add(n1, n2)
 	head := genList(n3)
 
-	return head
+	return reverseList(head)
 }
 
 func printList(l *ListNode) {
@@ -97,7 +97,7 @@ func printList(l *ListNode) {
 func main() {
 	a := genList(big.NewInt(123))
 	b := genList(big.NewInt(456))
-	c := reverseList(addTwoNumbers(a, b))
+	c := addTwoNumbers(a, b)
 
 	printList(c)
 }
