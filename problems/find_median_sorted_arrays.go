@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 归并排序的合并步骤
+// 不知道大佬解法啥样 0.0
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	lm := len(nums1) + len(nums2)
 	s := make([]int, len(nums1)+len(nums2))
