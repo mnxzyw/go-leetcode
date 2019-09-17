@@ -51,7 +51,7 @@ func longestPalindrome(s string) string {
 //}
 
 func main() {
-	st := "a"
+	st := "abcdedcq"
 	sm := longestPalindrome(st)
 	fmt.Println(sm)
 }
